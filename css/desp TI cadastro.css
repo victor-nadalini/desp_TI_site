@@ -1,0 +1,112 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #323232;
+}
+.caixa-de-informações{
+    background-color: rgb(126, 0, 0);
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    padding: 150px;
+    border-radius: 10px;
+    color:white;
+}
+.botao-top{
+    padding: 15px;
+    text-align: center;
+    background-color: #020733;
+    border-radius: 10px;
+    border:none;
+    width: 100%;
+    color: white;
+    font-size: 15px;
+    cursor:pointer;
+}
+button:hover{
+    background-color: rgb(147, 174, 236);
+}
+input{
+    padding: 15px;
+    border:none;
+    outline: none;
+    font-size: 15px;
+    height: 30px;;
+    width: 400px;
+    border-radius: 10px;
+}
+.conta{
+    font-family:Arial, Helvetica, sans-serif;
+    color: rgb(165, 165, 165);
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+}
+.senha{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(165, 165, 165);
+    position: relative;
+    left: 72px;
+    top: 10px;
+    text-decoration: none;
+}
+div.mensagem-sucesso{
+    position: relative;
+    left: 10px;
+    top:10px;
+    width: -89px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgb(138, 127, 127);
+    border: 1px solid rgb(0, 255, 13);
+    float: left;
+}
+div.email-ja-cadastrado{
+    position: relative;
+    left: 10px;
+    top:10px;
+    width: -89px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgb(138, 127, 127);
+    border: 1px solid rgb(255, 0, 0);
+    float: left;
+
+}
+.conf-senha-nao-corresponde{
+    position: relative;
+    left: 10px;
+    top:10px;
+    width: -89px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgb(138, 127, 127);
+    border: 1px solid rgb(255, 0, 0);
+    float: left;
+}
+.mensagem-de-erro{
+    position: relative;
+    left: 10px;
+    top:10px;
+    width: -89px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgb(138, 127, 127);
+    border: 1px solid rgb(255, 0, 0);
+    float: left;
+}
+.todos-os-campos{
+    position: relative;
+    left: 10px;
+    top:10px;
+    width: -89px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: rgb(138, 127, 127);
+    border: 1px solid rgb(255, 132, 0);
+    float: left;
+}
+.botão-login{
+    text-decoration: none;
+    color: white;
+}

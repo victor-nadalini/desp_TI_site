@@ -1,0 +1,40 @@
+{
+    "workbench.colorTheme": "One Dark Pro",
+    "terminal.integrated.shell.windows": "C:\\Windows\\System32\\cmd.exe",
+    "files.autoSave": "afterDelay",
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook"
+    },
+    "workbench.editor.untitled.hint": "hidden",
+    "workbench.editor.enablePreview": false,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+    "window.zoomLevel": 1,
+    "html.format.templating": true,
+    "liveServer.settings.useWebExt": true,
+    "intelephense.phpdoc.useFullyQualifiedNames": true,
+    "settingsSync.ignoredSettings": [
+        "php.validate.executablePath"
+    ],
+    "workbench.iconTheme": "vscode-icons",
+
+    //php 
+    "php.validate.executablePath": "C:/xampp/php/php.exe",
+    "php.suggest.basic":false,
+    "phpSniffer.run":"onType",
+    "phpSniffer.autoDetect": true, 
+    "phpSniffer.standard": "PSR12",
+    "[php]": {
+        "editor.defaultFormatter": "wongjn.php-sniffer"
+    } 
+}

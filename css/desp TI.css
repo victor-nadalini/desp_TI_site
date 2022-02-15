@@ -1,0 +1,616 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #323232;
+    width: 100%;
+    height: 100%;
+}
+    .logo{
+     float: left;   
+     position: relative;
+     top: 5px;
+}
+    .opcoes1{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+    .tela-opcoes{
+    background-color:black;
+    height: 70px;
+    padding: 0px 8%    
+}
+    .opcoes ul li {
+        display: inline-block;
+        color: #8b8b8b;
+        margin-left: 15px;
+        height: 50px;
+        position: relative;
+        top: 21px;
+        left: 100px;
+}
+    .opcoes ul li:hover {
+    border-bottom: 3px solid rgba(157, 30, 30, 0.578);
+}
+    .opcoes ul li a {
+    color:#8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+    .opcoes{
+    width: 70%;
+    float: left;
+}
+.patrocinio ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px;
+    position: relative;
+    top: 10px;
+    right: 60px;
+}
+figure, figure img{
+    width: 160px;
+    height: 210px;
+    display: inline-block;
+    position: relative;
+    left:  438px;
+    top: 10px;
+    border-radius: 10px;
+}
+.acelere-estudos{
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 505px;
+    padding-top: 10px;
+}
+#fig1{
+    background-image: url('../img/continuar\ meu\ curso\ definitvo.jpg');
+}
+#fig2{
+    background-image: url('../img/outros\ cursos.jpg');
+}
+#fig3{
+    background-image: url('../img/ver\ minha\ evolução.png');
+  
+}
+#fig1:hover{
+    background-image: url('../img/continuar\ meu\ curso\ definitvo\ clicado.png');
+}
+#fig2:hover{
+    background-image: url('../img/outros\ cursos\ clicado.png');
+}
+#fig3:hover{
+    background-image: url('../img/ver\ minha\ evolução\ clicado.png');
+}
+.imagenscentral1,.imagenscentral2,.imagenscentral3{
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 150px;
+    left: 44px;
+    width: 100px;
+    color: rgb(180, 0, 0);
+    font-size: 19px;
+}
+.letras-continuar-meu-curso{
+    position: relative;
+    left: 409px;
+    top: 132px;
+}
+.letras-outro-curso{    
+    position: relative;
+    left: 575px;
+    top: 132px;
+}
+.letras-ver-minha-evolução{
+    position: relative;
+    left: 747px;
+    top: 132px;
+}
+.seus-conteudos {
+    color: rgb(255, 0, 0);
+    position: relative;
+    left: -883px;
+    top: 10px;
+    font-size: x-large;
+    font-family: monospace;
+    float: right;
+}
+  .sistemas-operacionais{
+    color: rgb(255, 0, 0);
+    text-align: center;
+    position: relative;
+    top: 50px;
+    
+  }
+  .calculos-binarios-hexadecimais{
+      color: rgb(255, 0, 0);
+      text-align: center;
+      position: relative;
+      top: 50px;
+      
+    }
+    .redes-computadores{
+      color: rgb(255, 0, 0);
+      text-align: center;
+      position: relative;
+      top: 50px;
+      
+    }
+    .redes-computadores,.calculos-binarios-hexadecimais,.sistemas-operacionais{
+        margin: 30PX;
+        background-color: black;
+        border: none;
+        margin: 10px;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        position: relative;
+        left: 409px;
+        top: 35px;
+}
+.redes-computadores{
+    padding-left: 347px;
+    background-color: black; 
+    color: rgb(165, 158, 158); 
+    border: 2px solid #f44336;
+}
+.calculos-binarios-hexadecimais{
+    padding-left: 257px;
+    background-color: black; 
+    color: rgb(165, 158, 158); 
+    border: 2px solid #f44336;
+}
+.sistemas-operacionais{
+    padding-left: 347px;
+    background-color: black; 
+    color: rgb(165, 158, 158); 
+    border: 2px solid #f44336;
+}
+.redes-computadores:hover{
+    background-color: rgb(180, 0, 0);
+    color: white;
+}
+.calculos-binarios-hexadecimais:hover{
+    background-color: rgb(180, 0, 0);
+    color: white;
+}
+.sistemas-operacionais:hover{
+    background-color: rgb(180, 0, 0);
+    color: white;
+}
+.continuar{
+    color: #f44336;
+    position: relative;
+    top: 50px;
+    left: 500px;
+    font-family: monospace;
+}
+.continuar-mais-abaixo{
+    color: #f44336;
+    font-family: monospace;
+    position: relative;
+    top: 0px;
+    left: -1169px;
+    text-decoration: none;
+    float: right;
+
+}
+.victor-nadalini{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+    top: -350px;
+    left: -882px;
+    float: right;
+}
+.esquerda-cursos{
+    color: white;
+    position: relative;
+    top: -288px;
+    left: 144px;
+    float: left;
+    line-height: 1.4;
+    text-decoration: none;
+}
+.esquerda-pratica{
+    color: white;
+    position: relative;
+    top: -244px;
+    left: 76px;
+    float: left;
+    line-height: 1.4;
+    text-decoration: none;
+} 
+.esquerda-laboratorio{
+    color: white;
+    position: relative;
+    top: -200px;
+    left: 2px;
+    float: left;
+    line-height: 1.4;
+    text-decoration: none;
+}
+.esquerda-artigos{
+    color: white;
+    position: relative;
+    top: -155px;
+    left: -112px;
+    float: left;
+    line-height: 1.4;
+    text-decoration: none;
+}
+.esquerda-boletim{
+    color: white;
+    position: relative;
+    top: -110px;
+    left: -185px;
+    float: left;
+    line-height: 1.4;
+    text-decoration: none;
+}
+.esquerda-meus-cursos{
+    color: white;
+    position: relative;
+    top: -70px;
+    left: -264px;
+    float: left;
+    line-height: 1.4;
+    text-decoration: none;
+}
+.perfil-victor{
+    position: relative;
+    top: -499px;
+    left: 142px;
+}
+.ajuda{
+    color: #fff;
+    text-decoration: none;
+    font-family: monospace;
+    background-color: rgb(180, 0, 0); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    top: -114px;
+    left: 114px;
+}
+.doação{
+    color: #fff;
+    text-decoration: none;
+    font-family: monospace;
+    background-color: rgb(180, 0, 0); /* Green */
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    position: relative;
+    top: -40px;
+    left: -45px;
+}
+.ajuda{
+    background-color: rgb(180, 0, 0); 
+    color: black; 
+    border: 2px solid rgb(0, 0, 0);
+}
+.doação{
+    background-color: rgb(180, 0, 0); 
+    color: black; 
+    border: 2px solid rgb(0, 0, 0)
+}
+.ajuda:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.doação:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+}
+.ranking-de-alunos {
+    color: #b30623;
+    position: relative;
+    top: -577px;
+    right: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 21px;
+    float: right;
+}
+.position-ranking{
+    position: relative;
+    top: -529px;
+    right: -71px;
+    float: right;
+    font-size: 17px;
+    
+}
+.ana-beatriz{
+    color:white;
+    text-decoration: none;
+    position: relative;
+    top: -3px;
+}
+.link-ana{
+    text-decoration: none;
+    font-family: monospace;
+}
+.davi-trida{
+    color:white;
+    text-decoration: none;
+    position: relative;
+    top: 15px;
+}
+.link-davi{
+    text-decoration: none;
+    font-family: monospace;
+}
+.aline-damasceno{
+    color:white;
+    text-decoration: none;
+    position: relative;
+    top: 28.5px;
+    font-size: 22px;
+}
+.link-aline{
+    text-decoration: none;
+    font-family: monospace;
+}
+.andrei{
+    color:white;
+    text-decoration: none;
+    position: relative;
+    top: 47px;
+}
+.link-andrei{
+    text-decoration: none;
+    font-family: monospace;
+}
+.jack{
+    color:white;
+    text-decoration: none;
+    position: relative;
+    top: 68px;
+}
+.link-jack{
+    text-decoration: none;
+    font-family: monospace;
+}
+.xp-ana{
+    position: relative;
+    float: right;
+    top: -11px;
+    left: -86px;
+}
+.link-ana-xp{
+    color: white;
+    text-decoration: none;
+}
+.xp-davi{
+    position: relative;
+    float: right;
+    top: 7px;
+    left: -86px;
+}
+.link-davi-xp{
+    color: white;
+    text-decoration: none;
+}
+.xp-aline{
+    position: relative;
+    float: right;
+    top: 22px;
+    left: -86px;
+}
+.link-aline-xp{
+    color: white;
+    text-decoration: none;
+}
+.xp-andrei{
+    position: relative;
+    float: right;
+    top: 39px;
+    left: -86px;
+}
+.link-andrei-xp{
+    color: white;
+    text-decoration: none;
+}
+.xp-jack{
+    position: relative;
+    float: right;
+    top: 61px;
+    left: -86px;
+}
+.link-jack-xp{
+    color: white;
+    text-decoration: none;
+}
+.perfil-ana-foto{
+    position: relative;
+    float: right;
+    top: -552px;
+    left: 1127px;
+}
+.perfil-davi-foto{
+    position: relative;
+    float: right;
+    top: -490px;
+    left: 1058px;
+}
+.perfil-aline-foto{
+    position: relative;
+    float: right;
+    top: -416px;
+    left: 987px;
+}
+.perfil-andrei-foto{
+    position: relative;
+    float: right;
+    top: -344px;
+    left: 917px;
+}
+.perfil-jack-foto{
+    position: relative;
+    float: right;
+    top: -274px;
+    left: 858px;
+}
+.cursos{
+    position: relative;
+    float: left;
+    top: -297px;
+    right: 364px;
+}
+.pratica{
+    position: relative;
+    float: left;
+    top: -254px;
+    right: 421px;
+}
+.laboratorio{
+    position: relative;
+    float: left;
+    top: -212px;
+    right: 473px;
+}
+.artigos{
+    position: relative;
+    float: left;
+    top: -168px;
+    right: 528px;
+}
+.boletim{
+    position: relative;
+    float: left;
+    top: -124px;
+    right: 574px;
+}
+.meus-cursos{
+    position: relative;
+    float: left;
+    top: -78px;
+    right: 622px;
+}
+.artigos-do-curso{
+    position: relative;
+    float: right;
+    color: #b30623;
+    font-family: monospace;
+    top: -249px;
+    left: 267px;
+    font-size: 21px;
+}
+.position-hashtags{
+    position: relative;
+    top: -216px;
+    left: 645px;
+    font-size: 13px;
+    float: right;
+}
+
+
+.link-hexadecimais{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+}
+.link-operacionais{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+}
+.link-redes{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+}
+.link-binarios{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+}
+.link-bits{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+}
+.link-internet{
+    position: relative;
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+}
+li {
+    list-style-type: none;
+}
+
+
+/*caixa de artigos!!!*/
+.caixa-artigos{
+    width: 539px;
+    height: 143px;
+    margin: 0 auto;
+    position: relative;
+    right: 95px;
+    bottom: 284px;
+    float: right;
+    background-color: #636363;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    border: none;
+ }
+ .caixa-de-artigos-img{
+    max-width: 250px;
+ }
+ /*fim da caixa de artigos*/
+
+
+/*feet so site !!!*/
+ .footer-1 {
+ background-image: url('../img/fundo\ final\ preto\ 1.png');
+ color: #c1c1c1;
+ height: 80px;
+ padding: 0px;
+ }
+ .col-100{
+    width: 100%;
+    float: left;
+    position: relative;
+ }
+ .col-5 {
+    margin-left: 20px;
+    display: inline-block;
+    float: right;
+    list-style: none;
+    padding: 0px;
+    padding-top: 12px;
+}
+/*fim do feet do site*/

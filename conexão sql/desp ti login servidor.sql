@@ -1,6 +1,6 @@
 CREATE DATABASE desp;
 
-use desp_ti_login;
+use desp;
 
 create table usuarios(
    id_usuario INT NOT NULL IDENTITY(1,1) PRIMARY KEY,
